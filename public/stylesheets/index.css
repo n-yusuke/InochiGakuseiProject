@@ -1,27 +1,52 @@
+/* divの配置、サイズ、余白 */
 .header {
-  height: 5%;
+  height: 80px;
 }
 
-.main {
-  height: 95%;
+.channel_logo {
+  padding: 20px 0px 20px 10px;
 }
 
-.sidebar, .chatwindow {
-  height: 100%;
+.channel_name {
+  padding-top: 10px;
 }
 
 .timeline {
-  height: 95%;
+  overflow: auto;
+  padding-top: 20px;
+  height: 600px;
 }
 
-.input {
-  height: 5%;
+.messagebox {
+  height: 100px;
 }
 
-.sidebar {
-  background-color: plum;
+.user_picture {
+  height: 20px;
 }
 
-.input-group {
+.message_body {
+  height: 80px;
+}
 
+/* 色、テキストサイズなど */
+.header {
+  background-color: DarkMagenta;
+  color: white;
+}
+
+.message_content {
+  word-wrap: break-word;
+}
+
+.username {
+  font-size: 20px;
+}
+
+.message_content {
+  font-size: 15px;
+}
+
+#input_text {
+  font-size: 15px;
 }
