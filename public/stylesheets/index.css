@@ -1,0 +1,27 @@
+.header {
+  height: 5%;
+}
+
+.main {
+  height: 95%;
+}
+
+.sidebar, .chatwindow {
+  height: 100%;
+}
+
+.timeline {
+  height: 95%;
+}
+
+.input {
+  height: 5%;
+}
+
+.sidebar {
+  background-color: plum;
+}
+
+.input-group {
+
+}
