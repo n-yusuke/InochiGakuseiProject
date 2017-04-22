@@ -1,20 +1,20 @@
 /* divの配置、サイズ、余白 */
-.header {
+#header {
   height: 80px;
 }
 
-.channel_logo {
+#channel_logo {
   padding: 20px 0px 20px 10px;
 }
 
-.channel_name {
+#channel_name {
   padding-top: 10px;
 }
 
-.timeline {
+#timeline {
   overflow: auto;
   padding-top: 20px;
-  height: 600px;
+  height: 590px;
 }
 
 .messagebox {
@@ -30,13 +30,9 @@
 }
 
 /* 色、テキストサイズなど */
-.header {
+#header {
   background-color: DarkMagenta;
   color: white;
-}
-
-.message_content {
-  word-wrap: break-word;
 }
 
 .username {
@@ -44,6 +40,7 @@
 }
 
 .message_content {
+  word-wrap: break-word;
   font-size: 15px;
 }
 
